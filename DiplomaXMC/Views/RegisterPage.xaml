@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DiplomaXMC.Views.RegisterPage">
+    <ContentPage.Resources>
+            <ResourceDictionary>
+             <Color x:Key="primary">#090526</Color>
+            </ResourceDictionary>
+        </ContentPage.Resources>
+        <ContentPage.Content>
+            <ScrollView>
+                <StackLayout Spacing="10" >
+
+                    <Label HeightRequest="85"  
+                          HorizontalOptions="FillAndExpand" 
+                          Text="COOPERATE"
+                          FontFamily="Segoe UI"
+                          FontAttributes="Bold"
+                           
+                          BackgroundColor="{StaticResource primary}"
+                          TextColor="White" 
+                          FontSize="40" 
+                          HorizontalTextAlignment="Center"
+                          VerticalTextAlignment="Center"/>
+
+                    <Entry x:Name="txtName"  Margin="20,40,20,0" 
+                         HeightRequest="50" 
+                         Placeholder="Emri i plote">
+                        <Entry.Effects>
+
+                        </Entry.Effects>
+                    </Entry>
+                    <Entry  Margin="20,40,20,0" 
+                         HeightRequest="50" 
+                         Placeholder="Email"
+                            x:Name="txtEmail">
+                        <Entry.Effects>
+
+                        </Entry.Effects>
+                    </Entry>
+                    <Entry  Margin="20,40,20,0" 
+                         HeightRequest="50" 
+                         Placeholder="Perdoruesi"
+                            x:Name="txtUsername">
+                        <Entry.Effects>
+
+                        </Entry.Effects>
+                    </Entry>
+                <Entry  Margin="20,40,20,0" 
+                         HeightRequest="50" 
+                         Placeholder="Pershkrimi"
+                            x:Name="txtDescription">
+                    <Entry.Effects>
+
+                    </Entry.Effects>
+                </Entry>
+                <Picker Margin="20,40,20,0"
+                             HeightRequest="50" Title="Zgjidh kategorine qe te pershtatet"
+                                 x:Name="ddProfession">
+                    </Picker>
+
+                    <Entry Margin="20,0,20,0" 
+                        HeightRequest="50" IsPassword="true"
+                        Placeholder="Fjalekalimi"
+                           x:Name="txtPassword">
+                        <Entry.Effects>
+
+                        </Entry.Effects>
+                    </Entry>
+                    <Entry Margin="20,0,20,0" 
+                        HeightRequest="50" IsPassword="true"
+                        Placeholder="Konfirmo fjalekalimin"
+                           x:Name="txtConfirm">
+                        <Entry.Effects>
+
+                        </Entry.Effects>
+                    </Entry>
+
+                    <Button Margin="20,0,20,20" 
+                         HeightRequest="50" 
+                         TextColor="White" 
+                         Text="Regjistrohu"
+                        FontSize="24"
+                         BackgroundColor="{StaticResource primary}"
+                         HorizontalOptions="FillAndExpand" Clicked="btnRegister_Clicked"/>
+
+                </StackLayout>
+            </ScrollView>
+        </ContentPage.Content>
+    </ContentPage>

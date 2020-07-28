@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DiplomaXMC.MainPage"
+            Title="Master" MasterBehavior="Popover">
+
+    <MasterDetailPage.Master Margin="0,0,0,0">
+        <ContentPage Padding="0,10,0,0" BackgroundColor="#090526" Title="Master">
+            <ContentPage.Content>
+                <StackLayout Margin="0,0,0,0" Padding="0">
+                    <Label Margin="5,0,5,30" StyleClass="hoverCSS3" BackgroundColor="#090526" TextColor="White" FontSize="20" FontAttributes="Bold" FontFamily="Segoe UI" Text="Permbajtja"></Label>
+                    <Button Padding="0" StyleClass="hoverCSS3" Margin="0,0,0,0" BackgroundColor="#090526" Text="Dashboard" TextColor="White" FontSize="20" FontFamily="Segoe UI" Clicked="btnDashboard_Clicked"></Button>
+                    <Button Padding="0" StyleClass="hoverCSS3" Margin="0,0,0,0" BackgroundColor="#090526" Text="Tasket" TextColor="White" FontSize="20" FontFamily="Segoe UI" Clicked="btnTasks_Clicked"></Button>
+                    <Button Padding="0" StyleClass="hoverCSS3" Margin="0,0,0,0" BackgroundColor="#090526" Text="Projekte" TextColor="White" FontSize="20" FontFamily="Segoe UI" Clicked="btnProjektet_Clicked"></Button>
+                    <Button Padding="0" StyleClass="hoverCSS3" Margin="0,0,0,0" BackgroundColor="#090526" Text="Statistika" TextColor="White" FontSize="20" FontFamily="Segoe UI" Clicked="btnStatistika_Clicked"></Button>
+                    <Button Padding="0" StyleClass="hoverCSS3" Margin="0,0,0,0" BackgroundColor="#090526" Text="Dokumente" TextColor="White" FontSize="20" FontFamily="Segoe UI" Clicked="btnDokumenta_Clicked"></Button>
+                    <Button Padding="0" StyleClass="hoverCSS3" Margin="0,0,0,0" BackgroundColor="#090526" Text="Informacion" TextColor="White" FontSize="20" FontFamily="Segoe UI" Clicked="btnInfo_Clicked"></Button>
+                    <Button Padding="0" StyleClass="hoverCSS3" Margin="0,0,0,0" BackgroundColor="#090526" Text="Shkyçu" TextColor="White" FontSize="20" FontFamily="Segoe UI" Clicked="btnLogut_Clicked"></Button>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <ContentPage Padding="10">
+            <ContentPage.Content>
+                <StackLayout Margin="5,30,5,5">
+                    <Label Text="Detail Page"></Label>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

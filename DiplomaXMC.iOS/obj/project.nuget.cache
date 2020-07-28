@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "vwk/ErKei1g8GIFvBb1wYC8+Zc1Z//yfU7MoIfccha6mHfjDB6vaSXiHL9ePL+++clMQdhU1cn/WY9ZBjSMJyQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shpen\\source\\repos\\DiplomaXMC\\DiplomaXMC.iOS\\DiplomaXMC.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shpen\\.nuget\\packages\\microsoft.azure.mobile.client\\4.1.2\\microsoft.azure.mobile.client.4.1.2.nupkg.sha512",
+    "C:\\Users\\shpen\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\shpen\\.nuget\\packages\\pclcrypto\\2.0.147\\pclcrypto.2.0.147.nupkg.sha512",
+    "C:\\Users\\shpen\\.nuget\\packages\\pinvoke.bcrypt\\0.3.2\\pinvoke.bcrypt.0.3.2.nupkg.sha512",
+    "C:\\Users\\shpen\\.nuget\\packages\\pinvoke.kernel32\\0.3.2\\pinvoke.kernel32.0.3.2.nupkg.sha512",
+    "C:\\Users\\shpen\\.nuget\\packages\\pinvoke.ncrypt\\0.3.2\\pinvoke.ncrypt.0.3.2.nupkg.sha512",
+    "C:\\Users\\shpen\\.nuget\\packages\\pinvoke.windows.core\\0.3.2\\pinvoke.windows.core.0.3.2.nupkg.sha512",
+    "C:\\Users\\shpen\\.nuget\\packages\\sqlite\\3.13.0\\sqlite.3.13.0.nupkg.sha512",
+    "C:\\Users\\shpen\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\shpen\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "C:\\Users\\shpen\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "C:\\Users\\shpen\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "C:\\Users\\shpen\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\shpen\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\shpen\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\shpen\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\shpen\\.nuget\\packages\\validation\\2.2.8\\validation.2.2.8.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Users\\shpen\\.nuget\\packages\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}

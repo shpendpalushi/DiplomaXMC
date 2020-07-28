@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DiplomaXMC.Views.SpecificTask">
+  <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Image Source="taskImage.png" HeightRequest="150" WidthRequest="150" />
+                <Frame OutlineColor="Black" BackgroundColor="#090526">
+                    <Label Text="Emri i taskut:" FontSize="20" TextColor="White" FontAttributes="Bold"/>
+                </Frame>
+                <Label x:Name="txtName" Margin="20,0,0,20" FontSize="30" TextColor="Black" FontFamily="SegoeUI" FontAttributes="Bold"/>
+                <Frame OutlineColor="Black" BackgroundColor="#090526">
+                    <Label Text="Pershkrimi i taskut:" FontSize="20" TextColor="White" FontAttributes="Bold"/>
+                </Frame>
+                <Label x:Name="txtDesc" Margin="20,0,0,20" TextColor="DarkBlue"  FontAttributes="Italic" FontSize="30"/>
+                <Frame OutlineColor="Black" BackgroundColor="#090526">
+                    <Label Text="Dokumente per taskun:" FontSize="20" TextColor="White" FontAttributes="Bold"/>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

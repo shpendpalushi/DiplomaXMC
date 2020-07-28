@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DiplomaXMC.Views.LoginPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="primary">#090526</Color>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="10" >
+
+                <Label HeightRequest="110"  
+                          HorizontalOptions="FillAndExpand" 
+                          Text="COOPERATE" 
+                          BackgroundColor="{StaticResource primary}"
+                          TextColor="White" 
+                          FontSize="40" 
+                          HorizontalTextAlignment="Center"
+                          VerticalTextAlignment="Center"/>
+
+                <Entry x:Name="txtEmail" Margin="20,40,20,0" 
+                         HeightRequest="50" 
+                         Placeholder="Email">
+                    <Entry.Effects>
+
+                    </Entry.Effects>
+                </Entry>
+
+                <Entry x:Name="txtPassword" Margin="20,0,20,0" 
+                        HeightRequest="50" IsPassword="true"
+                        Placeholder="Password">
+                    <Entry.Effects>
+
+                    </Entry.Effects>
+                </Entry>
+
+                <Button x:Name="btnLogin"  Margin="20,0,20,0" 
+                         HeightRequest="50" 
+                         TextColor="White" 
+                         Text="Hyr"
+                        FontSize="24"
+                         BackgroundColor="{StaticResource primary}"
+                         HorizontalOptions="FillAndExpand" Clicked="btnLogin_Clicked"/>
+
+                <Button x:Name="btnRegister" Margin="20,20,20,20" 
+                         HeightRequest="50" 
+                         TextColor="White" 
+                         Text="Regjistrohu"
+                        FontSize="24"
+                         BackgroundColor="Gray"
+                         HorizontalOptions="FillAndExpand"
+                        Clicked="btnRegister_Clicked"/>
+
+                <Label Text="Harruat passwordin?" 
+                        HorizontalOptions="Center" 
+                        FontSize="24"
+                        TextColor="{StaticResource primary}"/>
+                <Button x:Name="btnFingerprint" Text="Perdor shenjen e gishtit" 
+                        Margin="20,20,20,20" Padding="0,0,0,0" BackgroundColor="#8B008B" TextColor="White" FontSize="24"/>
+                <Label Text="©Kodi i aplikacionit eshte i hapur, nese perdoret per qellime me kod te hapur" 
+                        HorizontalOptions="Center" 
+                        FontSize="20"
+                       Padding="25,0,25,0"
+                        TextColor="{StaticResource primary}"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

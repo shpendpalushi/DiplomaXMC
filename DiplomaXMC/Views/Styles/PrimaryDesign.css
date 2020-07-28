@@ -1,0 +1,16 @@
+﻿.txtTask {
+    font-size: 40;
+    text-align: center;
+}
+
+
+
+.mainPageTitle {
+    font-style: bold;
+    font-size: large;
+}
+
+.mainPageSubtitle {
+    margin-top: 15;
+    font-size:medium;
+}
