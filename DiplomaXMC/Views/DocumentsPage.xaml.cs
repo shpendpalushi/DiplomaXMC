@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace DiplomaXMC.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ContactPage : ContentPage
+    public partial class DocumentsPage : ContentPage
     {
-        public ContactPage()
+        public DocumentsPage()
         {
             InitializeComponent();
         }

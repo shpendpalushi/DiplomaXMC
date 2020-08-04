@@ -44,23 +44,23 @@ namespace DiplomaXMC
 
         private void btnProjektet_Clicked(object sender, EventArgs e)
         {
-            //Detail = new NavigationPage(new AboutUs());
-            //IsPresented = false;
+            Detail = new NavigationPage(new ProjectsPage());
+            IsPresented = false;
         }
         private void btnStatistika_Clicked(object sender, EventArgs e)
         {
-            //Detail = new NavigationPage(new ContactUs());
-            //IsPresented = false;
+            Detail = new NavigationPage(new StatisticsPage());
+            IsPresented = false;
         }
         private void btnDokumenta_Clicked(object sender, EventArgs e)
         {
-            //Detail = new NavigationPage(new ContactUs());
-            //IsPresented = false;
+            Detail = new NavigationPage(new DocumentsPage());
+            IsPresented = false;
         }
         private void btnInfo_Clicked(object sender, EventArgs e)
         {
-            //Detail = new NavigationPage(new ContactUs());
-            //IsPresented = false;
+            Detail = new NavigationPage(new Information());
+            IsPresented = false;
         }
         private void btnLogut_Clicked(object sender, EventArgs e)
         {

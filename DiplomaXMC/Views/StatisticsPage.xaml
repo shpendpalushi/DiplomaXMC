@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DiplomaXMC.Views.StatisticsPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#090526">
+            <Label Text="Statistika:" 
+                HorizontalOptions="CenterAndExpand"
+                   FontSize="24"
+                   TextColor="White"
+                   Padding="10,5,10,5"
+                   />
+            <Image Source="stats.png" 
+                   HeightRequest="150"
+                   WidthRequest="150"
+                   Margin="10,5,10,5"/>
+            <Label x:Name="txtUsers"
+                HorizontalOptions="CenterAndExpand"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="Red"
+                   Margin="10,5,10,5"
+                   />
+            <Label x:Name="txtProjects"
+                HorizontalOptions="CenterAndExpand"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="Red"
+                   Margin="10,5,10,5"
+                   />
+            <Label x:Name="txtTasks"
+                HorizontalOptions="CenterAndExpand"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="Red"
+                   Margin="10,5,10,5"
+                   />
+            <Label x:Name="txtPositions"
+                HorizontalOptions="CenterAndExpand"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="Red"
+                   Margin="10,5,10,5"
+                   />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DiplomaXMC.Views.Information">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#090526">
+            <Label Text="Per aplikacionin:" 
+                HorizontalOptions="CenterAndExpand"
+                   FontSize="24"
+                   TextColor="White"
+                   Padding="0,20,0,10"
+                   />
+            <Image Source="FTI.PNG" 
+                   HeightRequest="150"
+                   WidthRequest="150"
+                   Margin="0,20,0,10"/>
+            <Label Text="Aplikacioni eshte teresisht ne pronesi intelektuale te Fakultetit te Tekonologjise se Informacionit"
+                HorizontalOptions="CenterAndExpand"
+                   FontSize="24"
+                   TextColor="White"
+                   BackgroundColor="Red"
+                   Margin="0,20,0,10"/>
+            <Label Text="Perdorimi i aplikacionit per arsye akademike, kerkon ne pari miratimin e stafit akademik pergjegjes."
+                HorizontalOptions="CenterAndExpand"
+                   FontSize="24"
+                   TextColor="Red"
+                   Margin="0,20,0,10"
+                   />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

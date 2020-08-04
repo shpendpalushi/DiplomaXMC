@@ -2,10 +2,15 @@ C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\bin\Debug\netstandard2.0\Diplo
 C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\bin\Debug\netstandard2.0\DiplomaXMC.dll
 C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\bin\Debug\netstandard2.0\ref\DiplomaXMC.dll
 C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\bin\Debug\netstandard2.0\DiplomaXMC.pdb
+C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\DiplomaXMC.csprojAssemblyReference.cache
 C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\Views\AddTaskPage.xaml.g.cs
 C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\Views\Dashboard.xaml.g.cs
+C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\Views\Information.xaml.g.cs
 C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
 C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\Views\MyTaskPage.xaml.g.cs
+C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\Views\ProjectsPage.xaml.g.cs
 C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\Views\RegisterPage.xaml.g.cs
 C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\Views\SpecificTask.xaml.g.cs
 C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\Views\TaskPage.xaml.g.cs
@@ -17,6 +22,5 @@ C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\XamlC
 C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\DiplomaXMC.dll
 C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\ref\DiplomaXMC.dll
 C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\DiplomaXMC.pdb
-C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\DiplomaXMC.csprojAssemblyReference.cache
-C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\Views\AddTaskPage.xaml.g.cs
-C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\Views\MyTaskPage.xaml.g.cs
+C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\Views\DocumentsPage.xaml.g.cs
+C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\Views\StatisticsPage.xaml.g.cs
