@@ -526,3 +526,4 @@ C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC.Android\obj\Debug\90\android\t
 C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC.Android\obj\Debug\90\stamp\_CleanIntermediateIfNeeded.stamp
 C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC.Android\obj\Debug\90\res\drawable\usericon.png
 C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC.Android\obj\Debug\90\res\drawable\taskimage.png
+C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC.Android\obj\Debug\90\res\drawable\plus.png

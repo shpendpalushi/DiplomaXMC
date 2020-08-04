@@ -35,6 +35,13 @@ namespace DiplomaXMC
             IsPresented = false;
         }
 
+        private void btnTasksM_Clicked(object sender, EventArgs e)
+        {
+            Detail = new NavigationPage(new MyTaskPage());
+            IsPresented = false;
+        }
+        
+
         private void btnProjektet_Clicked(object sender, EventArgs e)
         {
             //Detail = new NavigationPage(new AboutUs());

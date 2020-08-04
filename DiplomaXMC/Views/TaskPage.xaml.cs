@@ -119,5 +119,13 @@ namespace DiplomaXMC.Views
                 
             }
         }
+
+        private void btnTask_Clicked(object sender, EventArgs e)
+        {
+            var page = new AddTaskPage();
+            MainPage fpm = new MainPage();
+            fpm.Detail = new NavigationPage(page);
+            Application.Current.MainPage = fpm;
+        }
     }
 }

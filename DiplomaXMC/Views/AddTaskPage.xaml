@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DiplomaXMC.Views.AddTaskPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="primary">#090526</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="10" >
+
+                <Label HeightRequest="85"  
+                          HorizontalOptions="FillAndExpand" 
+                          Text="COOPERATE"
+                          FontFamily="Segoe UI"
+                          FontAttributes="Bold"
+                           
+                          BackgroundColor="{StaticResource primary}"
+                          TextColor="White" 
+                          FontSize="40" 
+                          HorizontalTextAlignment="Center"
+                          VerticalTextAlignment="Center"/>
+
+                <Entry x:Name="txtName"  Margin="20,40,20,0" 
+                         HeightRequest="50" 
+                         Placeholder="Emri i taskut">
+                    <Entry.Effects>
+
+                    </Entry.Effects>
+                </Entry>
+                <Entry  Margin="20,40,20,0" 
+                         HeightRequest="50" 
+                         Placeholder="Pershkrimi"
+                            x:Name="txtDesc">
+                    <Entry.Effects>
+
+                    </Entry.Effects>
+                </Entry>
+                <Picker Margin="20,40,20,0"
+                             HeightRequest="50" Title="Kujt po ia delegon?"
+                            ItemsSource="{Binding Users}"
+                            ItemDisplayBinding="{Binding Full_Name}"
+                                 x:Name="ddUser">
+                </Picker>
+                <Picker Margin="20,40,20,0"
+                             HeightRequest="50" Title="Çfare pune eshte?"
+                            ItemsSource="{Binding Pune}"
+                            ItemDisplayBinding="{Binding Pune_Name}"
+                                 x:Name="ddPune">
+                </Picker>
+                <Picker Margin="20,40,20,0"
+                             HeightRequest="50" Title="Kujt projekti i perket?"
+                            ItemsSource="{Binding Projekt}"
+                            ItemDisplayBinding="{Binding Projekt_Name}"
+                                 x:Name="ddProjekt">
+                </Picker>
+                <Picker Margin="20,40,20,0"
+                             HeightRequest="50" Title="Çfare tipologjie ka?"
+                            ItemsSource="{Binding Tipologjia}"
+                            ItemDisplayBinding="{Binding Tipologjia_Name}"
+                                 x:Name="ddTipologjia">
+                </Picker>
+                <Button Margin="20,0,20,20" 
+                         HeightRequest="50" 
+                         TextColor="White" 
+                         Text="Kaloje taskun"
+                        FontSize="24"
+                         BackgroundColor="{StaticResource primary}"
+                         HorizontalOptions="FillAndExpand" Clicked="btnRegister_Clicked"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

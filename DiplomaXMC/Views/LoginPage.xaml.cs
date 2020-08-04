@@ -77,7 +77,7 @@ namespace DiplomaXMC.Views
             }
         }
 
-        private  async void btnRegister_Clicked(object sender, EventArgs e)
+        private void btnRegister_Clicked(object sender, EventArgs e)
         {
             var registerPage = new RegisterPage();//this could be content page
             var rootPage = new NavigationPage(registerPage);

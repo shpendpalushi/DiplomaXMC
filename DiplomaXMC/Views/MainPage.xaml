@@ -13,7 +13,8 @@
                 <StackLayout Margin="0,0,0,0" Padding="0">
                     <Label Margin="5,0,5,30" StyleClass="hoverCSS3" BackgroundColor="#090526" TextColor="White" FontSize="20" FontAttributes="Bold" FontFamily="Segoe UI" Text="Permbajtja"></Label>
                     <Button Padding="0" StyleClass="hoverCSS3" Margin="0,0,0,0" BackgroundColor="#090526" Text="Dashboard" TextColor="White" FontSize="20" FontFamily="Segoe UI" Clicked="btnDashboard_Clicked"></Button>
-                    <Button Padding="0" StyleClass="hoverCSS3" Margin="0,0,0,0" BackgroundColor="#090526" Text="Tasket" TextColor="White" FontSize="20" FontFamily="Segoe UI" Clicked="btnTasks_Clicked"></Button>
+                    <Button Padding="0" StyleClass="hoverCSS3" Margin="0,0,0,0" BackgroundColor="#090526" Text="Tasket e mia" TextColor="White" FontSize="20" FontFamily="Segoe UI" Clicked="btnTasks_Clicked"></Button>
+                    <Button Padding="0" StyleClass="hoverCSS3" Margin="0,0,0,0" BackgroundColor="#090526" Text="Tasket per mua" TextColor="White" FontSize="20" FontFamily="Segoe UI" Clicked="btnTasksM_Clicked"></Button>
                     <Button Padding="0" StyleClass="hoverCSS3" Margin="0,0,0,0" BackgroundColor="#090526" Text="Projekte" TextColor="White" FontSize="20" FontFamily="Segoe UI" Clicked="btnProjektet_Clicked"></Button>
                     <Button Padding="0" StyleClass="hoverCSS3" Margin="0,0,0,0" BackgroundColor="#090526" Text="Statistika" TextColor="White" FontSize="20" FontFamily="Segoe UI" Clicked="btnStatistika_Clicked"></Button>
                     <Button Padding="0" StyleClass="hoverCSS3" Margin="0,0,0,0" BackgroundColor="#090526" Text="Dokumente" TextColor="White" FontSize="20" FontFamily="Segoe UI" Clicked="btnDokumenta_Clicked"></Button>

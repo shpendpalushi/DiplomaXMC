@@ -17,3 +17,6 @@ C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\XamlC
 C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\DiplomaXMC.dll
 C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\ref\DiplomaXMC.dll
 C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\DiplomaXMC.pdb
+C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\DiplomaXMC.csprojAssemblyReference.cache
+C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\Views\AddTaskPage.xaml.g.cs
+C:\Users\shpen\source\repos\DiplomaXMC\DiplomaXMC\obj\Debug\netstandard2.0\Views\MyTaskPage.xaml.g.cs
